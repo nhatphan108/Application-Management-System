@@ -1,0 +1,39 @@
+.required{
+    border-bottom: 1px solid red !important;
+}
+.text{
+    height:30px;
+    background-color:inherit;
+    border:none;
+    border-bottom: 1px solid black;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    width:30%;
+    box-sizing:border-box;
+}
+.text:focus{
+    width:75%;
+}
+.label{
+    font-size:1.2em;
+    width:20%;
+    padding:10px 10px;
+    
+}
+.textarea{
+    width: 40%;
+}
+.select{
+    height:30px;
+}
+
+.container{
+    margin:0;
+    padding: 25px 10px;
+    display:flex;
+    font-family: fantasy;
+    width:100%;
+    height:100px;
+    color: rgb(156, 148, 148);
+    font-weight: 600;
+}
